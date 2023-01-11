@@ -915,7 +915,6 @@ img {
 .footer-box {
   display: flex;
   flex-direction: column;
-  align-items: baseline;
 }
 @media screen and (min-width: 1200px) {
   .footer-box {
@@ -937,8 +936,8 @@ img {
   .footer-box .footer-box__element {
     display: flex;
     flex-direction: row;
+    align-items: baseline;
     gap: 70px;
-    align-items: center;
   }
 }
 
@@ -1340,7 +1339,7 @@ img {
 .checkbox__input-noagree {
   position: absolute;
   top: 50%;
-  left: 5%;
+  left: 2%;
   transform: translateY(-50%);
   display: inline-block;
   width: 16px;
