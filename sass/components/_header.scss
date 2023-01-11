@@ -1,9 +1,19 @@
 .header {
   background-color: #ffffff;
   border-bottom: 1px solid#ECECEC;
-  // height: 80px;
-  padding-top: 24px;
+  height: 60px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  @media screen and (min-width: 768px) {
+    height: 80px;
+    padding-top: 26px;
+  padding-bottom: 26px;
+  }
+  @media screen and (min-width: 1200px) {
+    height: 80px;
+    padding-top: 24px;
   padding-bottom: 24px;
+  }
 }
 .main-nav {
   @media screen and (min-width: 768px) {
@@ -41,6 +51,7 @@
     padding-bottom: 32px;
     padding-left: 0;
     padding-right: 0;
+    color: #212121;
   }
   &__menu:hover {
     color: #2196f3;
