@@ -1401,8 +1401,8 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  max-width: 460px;
-  max-height: 609px;
+  width: 460px;
+  height: 609px;
   background-color: #ffffff;
   border-radius: 4px;
   padding: 40px;
@@ -1579,7 +1579,7 @@ img {
 .checkbox__input-noagree {
   position: absolute;
   top: 50%;
-  left: 2%;
+  left: 1%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   display: inline-block;
